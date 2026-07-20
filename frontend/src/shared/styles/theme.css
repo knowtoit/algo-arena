@@ -1,0 +1,110 @@
+/* Light theme  */
+@theme {
+  /* ---------- Brand Colors ---------- */
+
+  --color-primary: #215e61;
+  --color-secondary: #ff9e20;
+
+  /* ---------- Neutral Colors ---------- */
+
+  --color-background: #f4f2f2;
+  --color-surface: #ffffff;
+
+  --color-text: #1d2128;
+  --color-text-muted: #6b7280;
+
+  --color-border: #d9d9d9;
+
+  /* ---------- Semantic Colors ---------- */
+
+  --color-success: #16a34a;
+  --color-warning: #ff9e20;
+  --color-danger: #dc2626;
+  --color-info: #2563eb;
+
+  /* ---------- Fonts ---------- */
+
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+
+  /* ---------- Border Radius ---------- */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* ---------- Shadows ---------- */
+
+  --shadow-card: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dark theme */
+
+@theme {
+  /* ---------- Brand Colors ---------- */
+
+  --color-primary: #ff9e20;
+  --color-secondary: #215e61;
+
+  /* ---------- Neutral Colors ---------- */
+
+  --color-background: #1d2128;
+  --color-surface: #2a2f38;
+
+  --color-text: #f4f2f2;
+  --color-text-muted: #b0b6bf;
+
+  --color-border: #3d4450;
+
+  /* ---------- Semantic Colors ---------- */
+
+  --color-success: #16a34a;
+  --color-warning: #ff9e20;
+  --color-danger: #dc2626;
+  --color-info: #2563eb;
+
+  /* ---------- Fonts ---------- */
+
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+
+  /* ---------- Border Radius ---------- */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* ---------- Shadows ---------- */
+
+  --shadow-card: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
