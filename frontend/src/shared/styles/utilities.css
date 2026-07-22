@@ -1,0 +1,40 @@
+@layer utilities {
+  .heading-xl {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .heading-lg {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .heading-md {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .heading-sm {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .body {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .caption {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+
+  .code {
+    font-family: var(--font-code);
+  }
+}
